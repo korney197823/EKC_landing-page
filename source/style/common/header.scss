@@ -1,1 +1,32 @@
 
+.header-top {
+  background-color: #002f85;
+}
+
+.header-top__wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.header-logo__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.phone-number__link {
+
+  text-decoration: none;
+  font-family: $font-black;
+  font-size: 40px;
+  line-height: 53px;
+  color: #000000;
+  span {
+    font-size: 28px;
+    color: #002f85;
+  }
+}

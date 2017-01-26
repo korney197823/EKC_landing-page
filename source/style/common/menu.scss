@@ -1,0 +1,24 @@
+.menu {
+  width: 50%;
+}
+.menu__items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: #ffffff;
+}
+
+.menu__link {
+  font-size: 18px;
+  font-family: $font-light;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.email-adress__link {
+  color: #ffffff;
+  text-decoration: none;
+}
