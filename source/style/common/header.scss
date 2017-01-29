@@ -33,4 +33,33 @@
 
 .header-slider {
   background-image: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 755px;
+}
+
+.header-slider__wrap {
+  padding-top: 220px;
+}
+
+.header-slider__title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: $font-black;
+  font-size: 49px;
+  line-height: 52px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header-slider__text {
+  margin: 0;
+  margin-bottom: 150px;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $font-semibold;
+  font-size: 27px;
+  line-height: 52px;
+  color: #ffffff;
 }
