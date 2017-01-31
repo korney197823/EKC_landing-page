@@ -1,9 +1,23 @@
+.tabs__caption {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-
-
+.tabs__title {
+  font-family: $font-semibold;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #002f85;
+  cursor: pointer;
+}
 .tabs__content {
   display: none;
   &--active {
     display: block;
   }
 }
+

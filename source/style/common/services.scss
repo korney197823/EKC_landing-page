@@ -1,0 +1,27 @@
+.services {
+  width: 760px;
+  padding-left: 120px;
+  padding-right: 60px;
+  margin: 0 auto;
+  list-style-type: none;
+}
+.services__item {
+  display: flex;
+}
+.services__img-wrap {
+  width: 290px;
+  position: relative;
+  overflow: hidden;
+}
+.services__img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+.services__text {
+  margin: 0;
+  font-family: $font-semibold;
+  font-size: 17px;
+  line-height: 19px;
+  color: #595959;
+}
