@@ -7,6 +7,7 @@
 }
 
 .tabs__title {
+  text-decoration: none;
   font-family: $font-semibold;
   font-size: 20px;
   line-height: 25px;
@@ -16,8 +17,8 @@
 }
 .tabs__content {
   display: none;
-  &--active {
-    display: block;
-  }
+}
+.tabs__content.active {
+  display: block;
 }
 

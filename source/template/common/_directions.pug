@@ -5,16 +5,16 @@ section.directions
 
     .tabs
       ul.tabs__caption
+        li.tabs__caption-item.active
+          .tab__caption-icon
+          a(href="#tab-1").tabs__title.active Экспертиза
         li.tabs__caption-item
           .tab__caption-icon
-          h4.tabs__title.active Экспертиза
+          a(href="#tab-2").tabs__title Проектирование
         li.tabs__caption-item
           .tab__caption-icon
-          h4.tabs__title Проектирование
-        li.tabs__caption-item
-          .tab__caption-icon
-          h4.tabs__title Строительство
-      .tabs__content.tabs__content--active
+          a(href="#tab-3").tabs__title Строительство
+      .tabs__content.active#tab-1
         .tabs__content-wrap
           ul.services
             li.services__item
@@ -52,7 +52,7 @@ section.directions
                 p.services__text Разработка нормативной документации
                 button.btn.btn--red(type="button") Оформить заявку
 
-      .tabs__content
+      .tabs__content#tab-2
         .tabs__content-wrap
           ul.services
             li.services__item
@@ -85,7 +85,7 @@ section.directions
               p.services__text Расчет сметной документации
               button.btn.btn--red(type="button") Оформить заявку
 
-      .tabs__content
+      .tabs__content#tab-3
         .tabs__content-wrap
           ul.services
             li.services__item

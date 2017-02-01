@@ -1,0 +1,41 @@
+.features {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-image: url(../img/features-bg.jpg);
+  background-repeat: no-repeat;
+}
+.features__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $font-black;
+  font-size: 35px;
+  line-height: 37px;
+  color: #ffffff;
+}
+.features__items {
+  margin: 0;
+  margin-bottom: 90px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.feature {
+  width: 23%;
+}
+.feature__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $font-bold;
+  font-size: 24px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.feature__text {
+  text-align: center;
+  font-family: $font-semibold;
+  font-size: 19px;
+  line-height: 21px;
+  color: #ffffff;
+
+}

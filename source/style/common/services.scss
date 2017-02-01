@@ -10,16 +10,13 @@
 }
 .services__img-wrap {
   width: 290px;
-  position: relative;
-  overflow: hidden;
+  margin-right: 30px;
 }
 .services__img {
-  height: auto;
-  width: 100%;
-  display: block;
 }
 .services__text {
   margin: 0;
+  margin-bottom: 13px;
   font-family: $font-semibold;
   font-size: 17px;
   line-height: 19px;
