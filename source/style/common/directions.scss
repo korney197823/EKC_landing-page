@@ -1,6 +1,10 @@
-
+.directions {
+  padding-top: 65px;
+  background-image: url(../img/licenseAndDirections-bg.png);
+}
 
 .directions__title {
+  margin-top: 0;
   margin-bottom: 0;
   text-align: center;
   font-family: $font-black;
