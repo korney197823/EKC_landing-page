@@ -1,0 +1,19 @@
+
+.slider__item.slick-slide {
+  display: flex;
+  justify-content: center;
+}
+.slide {
+  width: 280px;
+}
+.slide-img__wrap {
+  width: 250px;
+  margin: 0 auto;
+  border: 14px solid #151946
+}
+.slide__text {
+  text-align: center;
+  font-family: $font-light;
+  font-size: 16px;
+  line-height: 19px;
+}

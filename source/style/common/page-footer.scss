@@ -1,0 +1,20 @@
+.page-footer {
+  background-image: url(../img/footer-bg.png);
+}
+.page-footer__top {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo.logo--bottom {
+  align-self: center;
+}
+.copyright__text {
+  padding: 20px 0;
+  text-align: center;
+  font-family: $font-regular;
+  font-size: 18px;
+  color: #ffffff;
+}
+
