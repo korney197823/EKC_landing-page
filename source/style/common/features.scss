@@ -22,7 +22,10 @@
   list-style-type: none;
 }
 .feature {
+  display: flex;
   width: 23%;
+  flex-direction: column;
+  align-items: center;
 }
 .feature__title {
   text-align: center;
@@ -38,5 +41,7 @@
   font-size: 19px;
   line-height: 21px;
   color: #ffffff;
-
+}
+.feature__icon {
+  height: 66px;
 }
