@@ -17,9 +17,11 @@
   padding-top: 16px;
   padding-bottom: 16px;
 }
-
+.phone-number {
+  display: flex;
+}
 .phone-number__link {
-
+  margin-left: 20px;
   text-decoration: none;
   font-family: $font-black;
   font-size: 40px;

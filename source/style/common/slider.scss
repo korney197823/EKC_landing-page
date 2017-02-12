@@ -17,3 +17,19 @@
   font-size: 16px;
   line-height: 19px;
 }
+.slider__item--clients {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.slide__client-item {
+  width: 20%;
+  height: 100px;
+  background-position: center center;
+}
+@for $i from 1 to 16 {
+  .slide__client-#{$i} {
+    background-image: url("../img/clients/client_" + "#{$i}" + ".png");
+    background-repeat: no-repeat;
+  }
+}

@@ -1,125 +1,141 @@
-section.directions
+section.directions#directions
   .directions__wrap.container
     h2.directions__title Основные направления деятельности
     p.directions__text экспертно-консультационного центра
 
     .tabs
-      ul.tabs__caption
+      ul.tabs__caption#nav-tab
         li.tabs__caption-item.active
-          .tab__caption-icon
+          .tab__caption-icon.sprite.sprite-worker
           a(href="#tab-1").tabs__title.active Экспертиза
         li.tabs__caption-item
-          .tab__caption-icon
+          .tab__caption-icon.sprite.sprite-drawing-compass
           a(href="#tab-2").tabs__title Проектирование
         li.tabs__caption-item
-          .tab__caption-icon
+          .tab__caption-icon.sprite.sprite-excavator-machine-arm
           a(href="#tab-3").tabs__title Строительство
-      .tabs__content.active#tab-1
-        .tabs__content-wrap
-          ul.services
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_2.jpg")
-              .services__text-wrap
-                p.services__text Экспертиза промышленной безопасности технических устройств (ТУ)
-                button.btn.btn--red(type="button") Оформить заявку
 
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_3.jpg")
-              .services__text-wrap
-                p.services__text Экспертиза промышленной безопасности зданий и сооружений
-                button.btn.btn--red(type="button") Оформить заявку
+      .tabs__content-container
+        .tabs__content.active#tab-1
+          .tabs__content-wrap
+            ul.services
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_2.jpg")
+                .services__text-wrap
+                  p.services__text Экспертиза промышленной безопасности технических устройств (ТУ)
+                  button.btn.btn--red(type="button") Оформить заявку
 
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_5.jpg")
-              .services__text-wrap
-                p.services__text Промышленное проектирование
-                button.btn.btn--red(type="button") Оформить заявку
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_3.jpg")
+                .services__text-wrap
+                  p.services__text Экспертиза промышленной безопасности зданий и сооружений
+                  button.btn.btn--red(type="button") Оформить заявку
 
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_10.jpg")
-              .services__text-wrap
-                p.services__text Лаборатория неразрушающего контроля
-                button.btn.btn--red(type="button") Оформить заявку
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_5.jpg")
+                .services__text-wrap
+                  p.services__text Промышленное проектирование
+                  button.btn.btn--red(type="button") Оформить заявку
 
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_4.jpg")
-              .services__text-wrap
-                p.services__text Разработка нормативной документации
-                button.btn.btn--red(type="button") Оформить заявку
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_10.jpg")
+                .services__text-wrap
+                  p.services__text Лаборатория неразрушающего контроля
+                  button.btn.btn--red(type="button") Оформить заявку
 
-      .tabs__content#tab-2
-        .tabs__content-wrap
-          ul.services
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_6.jpg")
-              p.services__text Разработка проектов и эскизов (жилых домов, коттеджей, промышленных и административных зданий)
-              button.btn.btn--red(type="button") Оформить заявку
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_4.jpg")
+                .services__text-wrap
+                  p.services__text Разработка нормативной документации
+                  button.btn.btn--red(type="button") Оформить заявку
 
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_7.jpg")
-              p.services__text Восстановление технической документации (паспортов на техническое оборудование)
-              button.btn.btn--red(type="button") Оформить заявку
 
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_4.jpg")
-              p.services__text Подготовка документации для полечения лицензии на опасных производственных объектах (ОПО)
-              button.btn.btn--red(type="button") Оформить заявку
 
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_8.jpg")
-              p.services__text Составление планов ликвидации аварийных ситуаций (ПЛАС) Разработка проектов производства работ (ППР)
-              button.btn.btn--red(type="button") Оформить заявку
+        .tabs__content#tab-2
+          .tabs__content-wrap
+            ul.services
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_6.jpg")
+                .services__text-wrap
+                  p.services__text Разработка проектов и эскизов (жилых домов, коттеджей, промышленных и административных зданий)
+                  button.btn.btn--red(type="button") Оформить заявку
 
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_9.jpg")
-              p.services__text Расчет сметной документации
-              button.btn.btn--red(type="button") Оформить заявку
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_7.jpg")
+                .services__text-wrap
+                  p.services__text Восстановление технической документации (паспортов на техническое оборудование)
+                  button.btn.btn--red(type="button") Оформить заявку
 
-      .tabs__content#tab-3
-        .tabs__content-wrap
-          ul.services
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_1.jpg")
-              p.services__text Разработка документации
-              button.btn.btn--red(type="button") Оформить заявку
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_4.jpg")
+                .services__text-wrap
+                  p.services__text Подготовка документации для полечения лицензии на опасных производственных объектах (ОПО)
+                  button.btn.btn--red(type="button") Оформить заявку
 
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_2.jpg")
-              p.services__text Экспертиза промышленной безопасности технических устройств (ТУ)
-              button.btn.btn--red(type="button") Оформить заявку
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_8.jpg")
+                .services__text-wrap
+                  p.services__text Составление планов ликвидации аварийных ситуаций (ПЛАС) Разработка проектов производства работ (ППР)
+                  button.btn.btn--red(type="button") Оформить заявку
 
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_3.jpg")
-              p.services__text Экспертиза промышленной безопасности зданий и сооружений (ЗС)
-              button.btn.btn--red(type="button") Оформить заявку
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_9.jpg")
+                .services__text-wrap
+                  p.services__text Расчет сметной документации
+                  button.btn.btn--red(type="button") Оформить заявку
 
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_4.jpg")
-              p.services__text Экспертиза промышленной безопасности документации (КЛ/ТП)
-              button.btn.btn--red(type="button") Оформить заявку
 
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_10.jpg")
-              p.services__text Лаборатория неразрушабщего контроля
-              button.btn.btn--red(type="button") Оформить заявку
+        .tabs__content#tab-3
+          .tabs__content-wrap
+            ul.services
+              li.services__item
+                .services__img-wrap
+                  img.services__img.services__img-bg(src="assets/img/img_1.jpg")
+                .services__text-wrap
+                  p.services__text Разработка документации
+                  button.btn.btn--red(type="button") Оформить заявку
 
-            li.services__item
-              .services__img-wrap
-                img.services__img(src="assets/img/img_5.jpg")
-              p.services__text Промышленной проектирование
-              button.btn.btn--red(type="button") Оформить заявку
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_2.jpg")
+                .services__text-wrap
+                  p.services__text Экспертиза промышленной безопасности технических устройств (ТУ)
+                  button.btn.btn--red(type="button") Оформить заявку
+
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_3.jpg")
+                .services__text-wrap
+                  p.services__text Экспертиза промышленной безопасности зданий и сооружений (ЗС)
+                  button.btn.btn--red(type="button") Оформить заявку
+
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_4.jpg")
+                .services__text-wrap
+                  p.services__text Экспертиза промышленной безопасности документации (КЛ/ТП)
+                  button.btn.btn--red(type="button") Оформить заявку
+
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_10.jpg")
+                .services__text-wrap
+                  p.services__text Лаборатория неразрушабщего контроля
+                  button.btn.btn--red(type="button") Оформить заявку
+
+              li.services__item
+                .services__img-wrap
+                  img.services__img(src="assets/img/img_5.jpg")
+                .services__text-wrap
+                  p.services__text Промышленной проектирование
+                  button.btn.btn--red(type="button") Оформить заявку

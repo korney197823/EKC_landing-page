@@ -53,9 +53,15 @@
   text-transform: uppercase;
 }
 .email-address {
+  display: flex;
   align-self: center;
 }
 .email-adress__link {
   color: #ffffff;
   text-decoration: none;
+  align-self: center;
+}
+.email-adress__icon {
+  background-position: center center;
+  margin-right: 30px;
 }

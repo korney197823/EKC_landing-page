@@ -2,20 +2,20 @@ header.page-header
   .header-top
     .header-top__wrap.container
       nav.menu
-        ul.menu__items
+        ul.menu__items#menu
           li.menu__item.hvr-reveal
             a.menu__link(href="#") Главная
           li.menu__item.hvr-reveal
-            a.menu__link(href="#") Услуги
+            a.menu__link(href="#directions") Услуги
           li.menu__item.hvr-reveal
-            a.menu__link(href="#") Клиенты
+            a.menu__link(href="#clients") Клиенты
           li.menu__item.hvr-reveal
-            a.menu__link(href="#") Лицензии
+            a.menu__link(href="#license") Лицензии
           li.menu__item.hvr-reveal
-            a.menu__link(href="#") Контакты
+            a.menu__link(href="#contacts") Контакты
 
       .email-address
-        span.email-adress__icon
+        .email-adress__icon.sprite.sprite-mail
         a.email-adress__link(href="mailto: bezis@mail.ru") bezis@mail.ru
 
   .header-logo
@@ -24,7 +24,7 @@ header.page-header
         a.logo__link(href="#")
           img.logo__img(src="assets/img/logo.png")
       .phone-number
-        span.phone-number__icon
+        .phone-number__icon.sprite.sprite-smartphone
         a.phone-number__link(href="tel: +74872701562") <span>+7 (4872)</span> 70-15-62
 
 
@@ -35,6 +35,7 @@ header.page-header
       button.btn.btn--transparent(type="button") Отправить заявку
 
   .achievements
+    a.scroll_up(href="#menu")
     .achievements__wrap.container
       ul.achievements__items
         li.achievement__item
