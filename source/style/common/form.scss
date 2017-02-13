@@ -40,6 +40,11 @@
   background-color: rgba(72,80,91,0.7);
   border: 1px solid rgba(109,114,121,0.8);
   border-radius: 6px;
+  color: #ffffff;
+  &:focus {
+    outline: none;
+    border-color: #ffffff;
+  }
   @include placeholder {
     color: #b8b8b8;
     font-family: $font-light;

@@ -10,7 +10,8 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: $font-regular;
-  width: 100vw;
+  min-width: 1155px;
+  overflow-x: hidden;
 }
 
 .container {
