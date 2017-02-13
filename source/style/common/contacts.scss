@@ -19,7 +19,18 @@
   top: 0;
   left: 0;
   background-color: #002f85;
+  background-repeat: no-repeat;
+  background-position: center center;
   border-radius: 7px;
+  &--address {
+    background-image: url(../img/icons/address.png);
+  }
+  &--mail {
+    background-image: url(../img/icons/mail-2.png);
+  }
+  &--phone {
+    background-image: url(../img/icons/smartphone-2.png);
+  }
 }
 .contacts__title {
   margin-top: 10px;
